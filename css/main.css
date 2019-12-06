@@ -1,0 +1,252 @@
+body {
+    background-image: url(/images/EsvpmQ4zp5Y.jpg);
+    background-size: 100% 100%;
+}
+
+a {
+    color: silver;
+}
+
+a:hover {
+    color: #ff7f24;
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(266, 205, 188, 1);
+    margin: 10px auto;
+    padding: 2px;
+}
+
+h3 {
+    text-align: center;
+    width: 600px;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.chessboard {
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+    background-image: url(/images/wood.jpg);
+}
+
+.chess {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.chess::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    height: 1px;
+    background: #000;
+}
+
+.chess::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #000;
+}
+
+.chess.left:before {
+    left: 20px;
+    right: 0;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.left:after {
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.right:before {
+    left: 0;
+    right: 20px;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.right:after {
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.top:before {
+    left: 0;
+    right: 0;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.top:after {
+    left: 20px;
+    top: 20px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.bottom:before {
+    left: 0;
+    right: 0;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.bottom:after {
+    left: 20px;
+    bottom: 20px;
+    width: 1px;
+}
+
+.chess.top.left:before {
+    left: 20px;
+    right: 0;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.top.right:after {
+    left: 20px;
+    top: 20px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.top.right:before {
+    left: 0;
+    right: 20px;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.top.left:after {
+    left: 20px;
+    top: 20px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.bottom.left:before {
+    left: 20px;
+    right: 0;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.bottom.left:after {
+    left: 20px;
+    bottom: 20px;
+    width: 1px;
+}
+
+.chess.bottom.right:before {
+    left: 0;
+    right: 20px;
+    top: 20px;
+    height: 1px;
+}
+
+.chess.bottom.left:after {
+    left: 20px;
+    bottom: 20px;
+    width: 1px;
+}
+
+.set {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.set::before {
+    content: none;
+}
+
+.set::after {
+    content: none;
+}
+
+#black {
+    background-color: black;
+    color: white;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+#white {
+    background-color: white;
+    color: black;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.black {
+    background: #000;
+}
+
+.white {
+    background: #fff;
+}
+
+button {
+    margin: 20px auto;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    display: inherit;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(234, 218, 193);
+    outline: none;
+}
+
+button:hover {
+    background-color: #b5c4b1;
+}
+
+button:active {
+    background: rgb(234, 218, 193);
+}
+
+audio{
+    float: right;
+    height: 30px;
+    width: 100px;
+    outline: none;
+    background-size:cover;
+}
