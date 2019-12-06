@@ -1,6 +1,6 @@
 # Five-in-a-row
 
-![Screen Shot 2019-12-06 at 9.58.38 AM](/Users/yangchen/Desktop/Screen Shot 2019-12-06 at 9.58.38 AM.png)
+![screenshot](/Users/yangchen/Desktop Local/WDI/Five-in-a-row/Five-in-a-row/images/screenshot.png)
 
 What is Five-in-a-row:
 
