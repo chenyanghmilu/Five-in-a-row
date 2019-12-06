@@ -1,6 +1,6 @@
 # Five-in-a-row
 
-![screenshot](/Users/yangchen/Desktop Local/WDI/Five-in-a-row/Five-in-a-row/images/screenshot.png)
+![screenshot](https://github.com/chenyanghmilu/Five-in-a-row/blob/master/images/screenshot.png)
 
 What is Five-in-a-row:
 
