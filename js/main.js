@@ -57,7 +57,6 @@ function setChess(event) {
         }
     }
 }
-chessSound.play();
 
 //get player's color
 function getColor(color) {

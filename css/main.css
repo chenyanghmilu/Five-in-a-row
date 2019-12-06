@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/EsvpmQ4zp5Y.jpg);
+    background-image: url(../images/EsvpmQ4zp5Y.jpg);
     background-size: 100% 100%;
 }
 
@@ -37,7 +37,7 @@ h3 {
     margin: 20px auto;
     width: 600px;
     height: 600px;
-    background-image: url(/images/wood.jpg);
+    background-image: url(../images/wood.jpg);
 }
 
 .chess {
